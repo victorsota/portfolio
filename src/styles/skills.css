@@ -1,0 +1,64 @@
+.titulo {
+  color: #ffffff;
+  width: 100%;
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contenttitle {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.subtitulo {
+  margin-top: 15px;
+  color: #ffffff;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text {
+  font-size: 26px;
+  margin-left: -30px;
+  color: #ffffff;
+  font-family: Inter;
+}
+
+.text2 {
+  font-size: 26px;
+  margin-left: -70px;
+  color: white;
+  font-family: Inter;
+}
+
+.skills {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-right: 20%;
+}
+
+.icon {
+  color: white;
+  font-size: 40px;
+}
+
+.sicon {
+  color: white;
+  font-size: 20px;
+}
+
+.icon2 {
+  color: white;
+  font-size: 40px; /* Define o tamanho do ícone */
+}
