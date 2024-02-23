@@ -28,7 +28,7 @@ const Navbar = () => {
             </li>
           </div>
         </div>
-        <li>
+        <li class="botaonav">
           <Link to="contact" smooth={true} duration={500}>
             <button className="custom-button">Vamos conversar?</button>
           </Link>
