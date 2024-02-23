@@ -1,0 +1,55 @@
+.text {
+  color: #ffffff;
+  width: 357px;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.nome {
+  color: #ffffff;
+  width: 357px;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.textAbout {
+  width: 36%;
+  padding: 0%;
+  /* margin-left: -700px; */
+  margin-top: 100px;
+}
+
+.about {
+  color: white;
+  font-size: 22px;
+}
+
+.conteudo {
+  /* margin-left: 50%; */
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.profile-container {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%; /* Torna a imagem redonda */
+  overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
+}
+
+.profile-picture {
+  width: 800px;
+  height: 569px;
+  top: 174px;
+  left: 808px;
+  border: 1px solid black; /* Adicionei a cor preta para o exemplo */
+}
