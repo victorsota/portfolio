@@ -1,0 +1,56 @@
+.tituloex {
+  color: #ffffff;
+  width: 100%;
+  font-family: Inter;
+  font-size: 54px;
+  margin-top: 25px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.nomeex {
+  color: #ffffff;
+  width: 657px;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.data {
+  color: blue;
+}
+
+.textAbout {
+  width: 36%;
+  padding: 0%;
+  /* margin-left: -700px; */
+  margin-top: 100px;
+}
+
+.about {
+  color: white;
+  font-size: 22px;
+}
+
+.conteudo {
+  /* margin-left: 50%; */
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.profile-containerex {
+  width: 400px;
+  height: 500px; /* Bordas arredondadas */
+  overflow: hidden;
+}
+
+.profile-pictureex {
+  width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner */
+  height: auto; /* Ajusta automaticamente a altura mantendo a proporção original */
+}
