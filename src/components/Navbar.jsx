@@ -1,45 +1,38 @@
 import { Link } from "react-scroll";
-import minhaFoto from "../img/minhaFoto.jpeg";
 
 const Navbar = () => {
   return (
     <nav>
       <ul>
-        <div class="flex items-center p-4">
-          <li>
+        <div className="icons">
+          <li class="logo">
             <Link to="about" smooth={true} duration={500}>
-              SOBRE
+              LOGO VGA
             </Link>
           </li>
-          <li>
-            <Link to="projects" smooth={true} duration={500}>
-              EXPERIENCIA
-            </Link>
-          </li>
-          <li>
-            <Link to="blog" smooth={true} duration={500}>
-              PROJETOS
-            </Link>
-          </li>
-          <li>
-            <Link to="blog" smooth={true} duration={500}>
-              FORMACAO
-            </Link>
-          </li>
-          <li>
-            <Link to="contact" smooth={true} duration={500}>
-              CONTATO
-            </Link>
-          </li>
-          <li>
-            <img
-              class="h-10 w-10 flex-none rounded-full"
-              src={minhaFoto}
-              alt="profilePicture"
-              title="profilePicture"
-            />
-          </li>
+          <div className="navegacao">
+            <li class="links">
+              <Link to="skills" smooth={true} duration={500}>
+                Habilidades
+              </Link>
+            </li>
+            <li>
+              <Link to="projects" smooth={true} duration={500}>
+                Projetos
+              </Link>
+            </li>
+            <li>
+              <Link to="experience" smooth={true} duration={500}>
+                Experiencia
+              </Link>
+            </li>
+          </div>
         </div>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            <button className="custom-button">Vamos conversar?</button>
+          </Link>
+        </li>
       </ul>
     </nav>
   );
