@@ -1,0 +1,152 @@
+/* Form.css */
+
+.form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent; /* Fundo transparente */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputclass {
+  margin-bottom: 25px;
+  color: white;
+  font-size: 25px;
+}
+label {
+  display: none; /* Oculta as labels */
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 15px; /* Espaçamento entre os inputs */
+}
+
+label {
+  color: white;
+}
+
+textarea input::placeholder,
+textarea::placeholder {
+  color: white;
+  font-size: 14px; /* Cor do placeholder */
+  margin-left: 0px; /* Adiciona margem à esquerda */
+}
+
+.buttonenv {
+  width: 165px;
+  height: 41px; /* Altura atualizada */
+  padding: 0 12px; /* Ajuste do preenchimento */
+  border-radius: 8px; /* Pontas arredondadas */
+  background-color: blue; /* Cor de fundo azul */
+  color: white; /* Cor do texto branco */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+  display: flex; /* Permite centralizar verticalmente */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center;
+  margin-left: 146px; /* Centraliza horizontalmente */
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: transparent; /* Fundo transparente */
+  color: white; /* Cor do texto */
+}
+
+textarea {
+  height: 150px;
+  color: white;
+  font-size: 14px; /* Cor do placeholder */
+  margin-left: 0px;
+}
+
+label.placeholder {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: white; /* Cor do texto da label */
+}
+
+/* Exibir label apenas quando o input estiver em foco ou tiver conteúdo */
+input:focus + label.placeholder,
+input:not(:placeholder-shown) + label.placeholder {
+  display: block;
+}
+
+label.placeholder {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: white; /* Cor do texto da label */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.fim {
+  display: flex;
+}
+
+.contactme {
+  margin-top: 70px;
+}
+
+.textfim {
+  color: white;
+  margin-left: -1px;
+}
+.iconerede {
+  margin-left: 500px;
+}
+
+.linksocial {
+  color: white;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.redesocial {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+/* Ajustar estilos para dispositivos móveis */
+@media (max-width: 600px) {
+  .form {
+    padding: 10px;
+  }
+
+  input[type="email"],
+  input[type="text"],
+  textarea {
+    margin-bottom: 100px;
+  }
+
+  button {
+    padding: 8px;
+  }
+}
