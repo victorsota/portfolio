@@ -1,19 +1,46 @@
 .text {
   color: #ffffff;
   width: 357px;
-  font-family: Inter;
-  font-size: 44px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
   font-weight: 600;
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
 }
 
+.botaoabout {
+  width: 30%;
+  font-size: 16px;
+  width: 30%;
+  text-align: left;
+  margin-left: -20%;
+}
+
+.botaoabout2 {
+  margin-top: 45px;
+  margin-left: 65%;
+  width: 100%;
+  height: 41px; /* Altura atualizada */
+  border-radius: 8px; /* Pontas arredondadas */
+  background-color: #0d45b7;
+  color: white; /* Cor do texto branco */
+  border: none;
+  font-weight: normal;
+  cursor: pointer;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center;
+  position: relative; /* Adiciona posição relativa */
+}
+
+.localbotao {
+  width: 100%;
+}
 .nome {
   color: #ffffff;
   width: 357px;
-  font-family: Inter;
-  font-size: 44px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
   font-weight: 600;
   line-height: 29px;
   letter-spacing: 0em;
@@ -22,16 +49,20 @@
 
 .textAbout {
   width: 36%;
-  padding: 0%;
-  /* margin-left: -700px; */
   margin-top: 100px;
 }
 
 .about {
   color: white;
-  font-size: 22px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.sobremim {
+  font-size: 16px;
+  color: white;
+  font-weight: normal;
+}
 .conteudo {
   /* margin-left: 50%; */
   display: flex;

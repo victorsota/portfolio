@@ -12,9 +12,9 @@
 
 .nomeex {
   color: #ffffff;
-  width: 657px;
-  font-family: Inter;
-  font-size: 44px;
+  width: 357px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
   font-weight: 600;
   line-height: 29px;
   letter-spacing: 0em;
@@ -25,20 +25,17 @@
   color: blue;
 }
 
-.textAbout {
+.textexp {
   width: 36%;
-  padding: 0%;
-  /* margin-left: -700px; */
-  margin-top: 100px;
 }
 
 .about {
   color: white;
-  font-size: 22px;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .conteudo {
-  /* margin-left: 50%; */
   display: flex;
   width: 100%;
   justify-content: space-evenly;

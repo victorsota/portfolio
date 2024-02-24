@@ -84,15 +84,15 @@ const Contact = () => {
         <h2 class="textfim">Contatos e Redes Sociais</h2>
         <div class="iconerede">
           <div class="redesocial">
-            <FaGithub className="icon" />
+            <FaGithub className="iconex" />
             <a class="linksocial">github.com/victorsota</a>
           </div>
           <div class="redesocial">
-            <FaLinkedin className="icon" />
+            <FaLinkedin className="iconex" />
             <a class="linksocial">linkedin.com/in/victor-gabriel-vieira/</a>
           </div>
           <div class="redesocial">
-            <TfiEmail className="icon" />
+            <TfiEmail className="iconex" />
             <a class="linksocial">victorgabrielfrancisco@gmail.com</a>
           </div>
         </div>

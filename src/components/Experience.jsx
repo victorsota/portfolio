@@ -1,4 +1,3 @@
-import "../styles/projects.css";
 import "../styles/experience.css";
 import exp from "../img/exp.png";
 
@@ -15,12 +14,12 @@ const Experience = () => {
             title="profilePicture"
           />
         </div>
-        <div className="textAbout">
+        <div className="textexp">
           <div className="nomeex">Desenvolvedor FullStack</div>
           <br></br>
           <div className="about">
             Companhia de Saneamento de Sergipe{" "}
-            <a class="data">/ abril 2022 - o momento / </a>
+            <a class="data">/abril 2022 - o momento/ </a>
             <p></p>
             <br></br>- Desenvolvimento do Sistema de Gerenciamento de Frota • Na
             construção do projeto utilizei Javascript, PHP, HTML e CSS • Banco
