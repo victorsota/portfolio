@@ -1,12 +1,14 @@
 /* Card.css */
 .card {
   width: 300px;
-  height: 350px;
+  height: 330px;
   border: 1px solid white;
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
   margin-right: 60px;
+  background-color: #081329;
+
 }
 
 .titulop {
@@ -39,7 +41,8 @@
 .card .content {
   color: white;
   padding: 20px;
-  height: 200px;
+  height: 150px;
+  background-color: #081329;
 }
 
 .card h2 {
@@ -55,17 +58,19 @@
 }
 
 .card button {
-  margin-top: 45px;
-  width: 165px;
+  margin-top: 30px;
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: normal;  
+  width: 252px;
   height: 41px; /* Altura atualizada */
-  padding: 0 12px; /* Ajuste do preenchimento */
+  padding: 0px; /* Ajuste do preenchimento */
   border-radius: 8px; /* Pontas arredondadas */
-  background-color: blue; /* Cor de fundo azul */
+  border: 2px solid white; /* Borda branca de 2px */
+  background-color: #081329;
   color: white; /* Cor do texto branco */
-  border: white; /* Remove a borda do botão */
   cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
   display: flex; /* Permite centralizar verticalmente */
   align-items: center; /* Centraliza verticalmente */
   justify-content: center;
-  margin-left: 56px; /* Centraliza horizontalmente */
 }

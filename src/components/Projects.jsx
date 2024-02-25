@@ -5,6 +5,7 @@ import filme from "../img/filme.png";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
 
 const Projects = () => {
   return (
@@ -27,9 +28,10 @@ const Projects = () => {
           <div className="content">
             <h2 class="tituloprojeto">
               <div class="tituloprojeto">TODO List</div>
-              <FaReact className="iconp" />
-              <FaHtml5 className="iconp" />
-              <FaCss3 className="iconp" />
+              <FaReact className="iconp" title="React"/>
+              <FaHtml5 className="iconp" title="HTML5"/>
+              <FaCss3 className="iconp" title="CSS"/>
+              <IoLogoJavascript className="iconp" title="JavaScript" />
             </h2>
             <p class="desc">
               projeto desenvolvido com finalidade de facilitar no dia dia
@@ -53,9 +55,10 @@ const Projects = () => {
           <div className="content">
             <h2 class="tituloprojeto">
               <div class="tituloprojeto">Filmes</div>
-              <FaReact className="iconp" />
-              <FaHtml5 className="iconp" />
-              <FaCss3 className="iconp" />
+              <FaReact className="iconp" title="React"/>
+              <FaHtml5 className="iconp" title="HTML5"/>
+              <FaCss3 className="iconp" title="CSS"/>
+              <IoLogoJavascript className="iconp" title="JavaScript" />
             </h2>
             <p class="desc">
               projeto que consome e faz buscas dentro de uma API de filmes
