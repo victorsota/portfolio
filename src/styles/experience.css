@@ -1,10 +1,9 @@
 .tituloex {
   color: #ffffff;
   width: 100%;
+  margin-top: 5%;
   font-family: Inter;
   font-size: 26px;
-  margin-top: 25px;
-  line-height: 29px;
   letter-spacing: 0em;
   text-align: center;
 }
@@ -26,6 +25,7 @@
 
 .textexp {
   width: 36%;
+  height: 30%;
 }
 
 .about {
@@ -37,12 +37,13 @@
 .conteudo {
   display: flex;
   width: 100%;
+  height: 60%;
   justify-content: space-evenly;
 }
 
 .profile-containerex {
   width: 400px;
-  height: 500px; /* Bordas arredondadas */
+  height: 500px;
   overflow: hidden;
 }
 

@@ -46,7 +46,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 2;
-  height: 93px;
+  height: 53px;
   min-height: 70px;
   width: 100%;
   background-color: #000000bb;
@@ -73,8 +73,6 @@ nav {
 .custom-button:hover {
   background-color: #0a51a3; /* Altera a cor de fundo no hover */
 }
-
-
 
 .botaonav {
   width: 10%;
