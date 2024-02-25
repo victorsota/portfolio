@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="icons">
           <li class="logo">
             <Link to="about" smooth={true} duration={500}>
-              LOGO VGA
+              Victor Gabriel
             </Link>
           </li>
           <div className="navegacao">
