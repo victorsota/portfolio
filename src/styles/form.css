@@ -4,19 +4,19 @@
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  background-color: transparent; /* Fundo transparente */
+
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .inputclass {
   margin-bottom: 25px;
   color: white;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: normal;
 }
+
 label {
-  display: none; /* Oculta as labels */
+  display: none;
 }
 
 .input-container {
@@ -28,26 +28,19 @@ label {
   color: white;
 }
 
-textarea input::placeholder,
-textarea::placeholder {
-  color: white;
-  font-size: 14px; /* Cor do placeholder */
-  margin-left: 0px; /* Adiciona margem à esquerda */
-}
-
 .buttonenv {
   width: 165px;
-  height: 41px; /* Altura atualizada */
-  padding: 0 12px; /* Ajuste do preenchimento */
-  border-radius: 8px; /* Pontas arredondadas */
-  background-color: blue; /* Cor de fundo azul */
-  color: white; /* Cor do texto branco */
-  border: none; /* Remove a borda do botão */
-  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
-  display: flex; /* Permite centralizar verticalmente */
-  align-items: center; /* Centraliza verticalmente */
+  height: 41px;
+  padding: 0 12px;
+  border-radius: 8px;
+  background-color: #0b4dd2 !important; /* Definir a cor de fundo como azul */
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  margin-left: 146px; /* Centraliza horizontalmente */
+  margin-left: 146px;
 }
 
 input[type="email"],
@@ -68,37 +61,17 @@ textarea {
   height: 150px;
   color: white;
   font-size: 14px; /* Cor do placeholder */
-  margin-left: 0px;
 }
 
-label.placeholder {
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  pointer-events: none;
-  color: white; /* Cor do texto da label */
-}
-
-/* Exibir label apenas quando o input estiver em foco ou tiver conteúdo */
-input:focus + label.placeholder,
-input:not(:placeholder-shown) + label.placeholder {
-  display: block;
-}
-
-label.placeholder {
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  pointer-events: none;
-  color: white; /* Cor do texto da label */
+textarea::placeholder {
+  font-size: 16px;
+  padding: 8px;
 }
 
 button {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #0056b3;
   color: white;
   border: none;
   border-radius: 4px;
@@ -106,7 +79,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3 !important;
 }
 
 .fim {
@@ -117,18 +90,24 @@ button:hover {
   margin-top: 70px;
 }
 
+.mentext {
+  margin-left: 8px;
+}
+
 .textfim {
   color: white;
   margin-left: -1px;
 }
 .iconerede {
   margin-left: 500px;
+  color: white;
 }
 
 .linksocial {
   color: white;
   font-size: 16px;
   margin-left: 5px;
+  font-weight: normal;
 }
 
 .redesocial {
@@ -146,9 +125,5 @@ button:hover {
   input[type="text"],
   textarea {
     margin-bottom: 100px;
-  }
-
-  button {
-    padding: 8px;
   }
 }

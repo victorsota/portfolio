@@ -28,14 +28,13 @@ const Projects = () => {
           <div className="content">
             <h2 class="tituloprojeto">
               <div class="tituloprojeto">TODO List</div>
-              <FaReact className="iconp" title="React"/>
-              <FaHtml5 className="iconp" title="HTML5"/>
-              <FaCss3 className="iconp" title="CSS"/>
+              <FaReact className="iconp" title="React" />
+              <FaHtml5 className="iconp" title="HTML5" />
+              <FaCss3 className="iconp" title="CSS" />
               <IoLogoJavascript className="iconp" title="JavaScript" />
             </h2>
             <p class="desc">
-              projeto desenvolvido com finalidade de facilitar no dia dia
-              fazendo funcao de agenda
+              To-do-list criada com objetivo de ajudar em tarefas do dia a dia.
             </p>
             <a
               href="https://victor-gabriel-todo.up.railway.app/"
@@ -55,9 +54,9 @@ const Projects = () => {
           <div className="content">
             <h2 class="tituloprojeto">
               <div class="tituloprojeto">Filmes</div>
-              <FaReact className="iconp" title="React"/>
-              <FaHtml5 className="iconp" title="HTML5"/>
-              <FaCss3 className="iconp" title="CSS"/>
+              <FaReact className="iconp" title="React" />
+              <FaHtml5 className="iconp" title="HTML5" />
+              <FaCss3 className="iconp" title="CSS" />
               <IoLogoJavascript className="iconp" title="JavaScript" />
             </h2>
             <p class="desc">

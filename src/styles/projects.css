@@ -1,14 +1,14 @@
 /* Card.css */
 .card {
   width: 300px;
-  height: 330px;
+  height: 360px;
+  font-weight: normal;
   border: 1px solid white;
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
   margin-right: 60px;
   background-color: #081329;
-
 }
 
 .titulop {
@@ -29,7 +29,7 @@
 }
 
 .desc {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .card img {
@@ -57,20 +57,22 @@
   display: flex;
 }
 
+.pbutton {
+  margin-top: 10%;
+}
+
 .card button {
-  margin-top: 30px;
   margin-left: 5px;
   font-size: 16px;
-  font-weight: normal;  
+  font-weight: normal;
   width: 252px;
-  height: 41px; /* Altura atualizada */
-  padding: 0px; /* Ajuste do preenchimento */
-  border-radius: 8px; /* Pontas arredondadas */
-  border: 2px solid white; /* Borda branca de 2px */
+  height: 41px;
+  border-radius: 8px;
+  border: 2px solid white;
   background-color: #081329;
-  color: white; /* Cor do texto branco */
-  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
-  display: flex; /* Permite centralizar verticalmente */
-  align-items: center; /* Centraliza verticalmente */
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }

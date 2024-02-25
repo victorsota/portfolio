@@ -67,7 +67,10 @@ const Contact = () => {
           onChange={(e) => setAssunto(e.target.value)}
           required
         />
-        <label htmlFor="mensagem">Mensagem:</label>
+        <label class="xx" htmlFor="mensagem">
+          {" "}
+          Mensagem:
+        </label>
         <textarea
           placeholder="Mensagem"
           class="inputclass"
