@@ -74,15 +74,7 @@ nav {
   background-color: #0a51a3; /* Altera a cor de fundo no hover */
 }
 
-.custom-button::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px; /* Altura da linha */
-  background-color: #0a51a3; /* Cor da linha */
-}
+
 
 .botaonav {
   width: 10%;
