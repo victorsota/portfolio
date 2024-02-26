@@ -9,7 +9,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section class="paginas" id="projects">
       <div class="contenttitle">
         <div className="titulo">Projetos</div>
         <div class="subtitulo">

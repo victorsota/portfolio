@@ -44,8 +44,8 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
-      <div className="titulo contactme">Vamos conversar?</div>
+    <section class="paginas" id="contact">
+      <div className="titulo-contactme">Vamos conversar?</div>
       <form onSubmit={handleSubmit} className="form">
         <label htmlFor="email">Email:</label>
         <input

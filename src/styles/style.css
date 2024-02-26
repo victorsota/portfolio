@@ -71,6 +71,10 @@ nav {
   position: relative; /* Adiciona posição relativa */
 }
 
+.paginas {
+  margin-top: 10%;
+}
+
 .custom-button:hover {
   background-color: #0a51a3; /* Altera a cor de fundo no hover */
 }

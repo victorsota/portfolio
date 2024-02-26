@@ -2,25 +2,10 @@ import "../styles/skills.css";
 import { FiCodesandbox } from "react-icons/fi";
 import { FaDatabase } from "react-icons/fa";
 import { FaTools } from "react-icons/fa";
-import { FaPhp } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3 } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaVuejs } from "react-icons/fa";
-import { RiFlutterFill } from "react-icons/ri";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { BiLogoMongodb } from "react-icons/bi";
-import { TbBrandMysql } from "react-icons/tb";
-import { FaGit } from "react-icons/fa6";
-import { FaLinux } from "react-icons/fa6";
-import { SiPostman } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <section id="skills">
+    <section class="paginas" id="skills">
       <div class="contenttitle">
         <div className="titulo">Habilidades Técnicas</div>
         <div class="subtitulo">

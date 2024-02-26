@@ -3,7 +3,7 @@ import exp from "../img/exp.png";
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <section class="paginas" id="experience">
       <div className="tituloex">Experiencia</div>
       <div className="conteudo">
         <div className="profile-containerex">
@@ -18,9 +18,6 @@ const Experience = () => {
           <div className="nomeex">Desenvolvedor FullStack</div>
           <br></br>
           <div className="about">
-            Companhia de Saneamento de Sergipe{" "}
-            <a class="data">/abril 2022 - o momento/ </a>
-            <p></p>
             Atualmente, sou Dev. Full Stack na Companhia de Saneamento de
             Sergipe (Deso). Iniciei minha jornada em 2022 e tive a oportunidade
             de passar por diversos projetos importantes para a empresa. Atuei

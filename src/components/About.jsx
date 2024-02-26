@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const About = () => {
   return (
-    <section id="about">
+    <section class="paginas" id="about">
       <div className="conteudo">
         <div className="textAbout">
           <div className="nome">Victor Gabriel</div>
