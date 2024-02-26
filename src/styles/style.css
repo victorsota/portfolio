@@ -71,6 +71,22 @@ nav {
   position: relative; /* Adiciona posição relativa */
 }
 
+.btnlink {
+  background-color: transparent !important; /* Botão transparente */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda */
+  cursor: pointer; /* Altera o cursor */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte */
+  font-size: 16px; /* Tamanho da fonte */
+  text-decoration: none; /* Remove a decoração de texto padrão */
+  transition: background-color 0.3s; /* Adiciona transição suave na mudança de cor de fundo */
+}
+
+.btnlink:hover {
+  color: #0a51a3 !important;
+  background-color: transparent !important; /* Cor de fundo cinza no hover */
+}
+
 .paginas {
   margin-top: 10%;
 }

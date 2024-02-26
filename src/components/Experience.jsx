@@ -4,7 +4,7 @@ import exp from "../img/exp.png";
 const Experience = () => {
   return (
     <section class="paginas" id="experience">
-      <div className="tituloex">Experiencia</div>
+      <div className="tituloex">Experiência</div>
       <div className="conteudo">
         <div className="profile-containerex">
           <img

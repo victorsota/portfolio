@@ -7,23 +7,23 @@ const Navbar = () => {
         <div className="icons">
           <li class="logo">
             <Link to="about" smooth={true} duration={500}>
-              Victor Gabriel
+              <button class="btnlink"> Victor Gabriel </button>
             </Link>
           </li>
           <div className="navegacao">
             <li class="links">
               <Link to="skills" smooth={true} duration={500}>
-                Habilidades
+                <button class="btnlink">Habilidades</button>
               </Link>
             </li>
             <li class="links">
               <Link to="projects" smooth={true} duration={500}>
-                Projetos
+                <button class="btnlink">Projetos</button>
               </Link>
             </li>
             <li class="links">
               <Link to="experience" smooth={true} duration={500}>
-                Experiencia
+                <button class="btnlink">Experiência</button>
               </Link>
             </li>
           </div>
