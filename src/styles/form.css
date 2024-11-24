@@ -7,6 +7,12 @@
   width: 100%;
   border-radius: 8px;
 }
+.erro {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
 
 .inputclass {
   margin-bottom: 25px;
@@ -66,6 +72,21 @@ label {
   align-items: center;
   justify-content: center;
   font-weight: normal;
+}
+
+.buttonenvregister{
+  height: 41px;
+  padding: 0 12px;
+  border-radius: 8px;
+  background-color: #0b4dd2 !important; /* Definir a cor de fundo como azul */
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  margin-top:10px
 }
 
 input[type="email"],

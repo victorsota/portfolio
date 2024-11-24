@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
-import { authenticateUser } from "../services/authService";
+import { register } from "../services/authService";
 import "../styles/form.css";
 import Alert from "@mui/material/Alert";
 import Stack from "@mui/material/Stack";
 
-const Login = ({ onSwitchToRegister }) => {  // Recebe a função como prop
+const Register = ({ onSwitchToLogin }) => {  // Recebe a função para alternar para Login
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [erro, setErro] = useState(""); 
@@ -17,17 +17,17 @@ const Login = ({ onSwitchToRegister }) => {  // Recebe a função como prop
     e.preventDefault();
 
     try {
-      const response = await authenticateUser(email, password);
+      const response = await register(email, password);
       localStorage.setItem("userId", response.userId);
       window.location.reload();
     } catch (error) {
-      setErro("Usuário ou senha incorretos!"); 
+      setErro("Erro ao cadastrar usuário!"); 
     }
   };
 
   return (
     <section className="paginas" id="contact">
-      <div className="titulo-contactme">Login</div>
+      <div className="titulo-contactme">Registre-se</div>
 
       <form onSubmit={handleSubmit} className="form">
         <label htmlFor="email">Email:</label>
@@ -55,14 +55,8 @@ const Login = ({ onSwitchToRegister }) => {  // Recebe a função como prop
         <button className="buttonenvlogin" type="submit">
           Enviar
         </button>
-        <button
-          className="buttonenvregister"
-          type="button"
-          onClick={onSwitchToRegister}  // Chama a função para mudar para Register
-        >
-          Cadastre-se
-        </button>
-        
+
+        {/* Exibe alerta de erro se `erro` estiver definido */}
         {erro && (
           <Stack sx={{ width: "100%", marginTop:5, marginBottom: 2 }} spacing={2}>
             <Alert variant="outlined" severity="error">
@@ -70,6 +64,15 @@ const Login = ({ onSwitchToRegister }) => {  // Recebe a função como prop
             </Alert>
           </Stack>
         )}
+
+        {/* Botão para alternar para a tela de login */}
+        <button
+          className="buttonenvregister"
+          type="button"
+          onClick={onSwitchToLogin}  // Chama a função para alternar para Login
+        >
+          Já tenho conta
+        </button>
       </form>
 
       <div className="fim">
@@ -93,5 +96,4 @@ const Login = ({ onSwitchToRegister }) => {  // Recebe a função como prop
   );
 };
 
-export default Login;
-
+export default Register;
