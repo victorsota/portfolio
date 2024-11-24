@@ -71,6 +71,40 @@ nav {
   position: relative; /* Adiciona posição relativa */
 }
 
+.calculator {
+  margin-top: 15px;
+  margin-left: 65%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 40%;
+  height: 41px; /* Altura atualizada */
+  border-radius: 8px; /* Pontas arredondadas */
+  background-color: #0d45b7;
+  color: white; /* Cor do texto branco */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+  display: flex; /* Permite centralizar verticalmente */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center;
+  position: relative; /* Adiciona posição relativa */
+}
+
+.calculator2 {
+  margin-top: 15px;
+  margin-left: 65%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 200%;
+  height: 41px; /* Altura atualizada */
+  border-radius: 8px; /* Pontas arredondadas */
+  background-color: #0d45b7;
+  color: white; /* Cor do texto branco */
+  border: none; /* Remove a borda do botão */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+  display: flex; /* Permite centralizar verticalmente */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center;
+  position: relative; /* Adiciona posição relativa */
+}
+
 .btnlink {
   background-color: transparent !important; /* Botão transparente */
   color: white; /* Cor do texto */
@@ -96,6 +130,13 @@ nav {
 }
 
 .botaonav {
+  display: flex;
+  width: 28%;
+  min-width: 28%;
+  justify-content: space-between
+}
+
+.botaologin {
   width: 14%;
   min-width: 14%;
 }

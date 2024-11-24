@@ -4,7 +4,7 @@
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -54,7 +54,22 @@ label {
   font-weight: normal;
 }
 
+.buttonenvlogin {
+  height: 41px;
+  padding: 0 12px;
+  border-radius: 8px;
+  background-color: #0b4dd2 !important; /* Definir a cor de fundo como azul */
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
 input[type="email"],
+input[type="password"],
 input[type="text"],
 textarea {
   width: 100%;
@@ -67,6 +82,7 @@ textarea {
   background-color: transparent; /* Fundo transparente */
   color: white; /* Cor do texto */
 }
+
 
 textarea {
   height: 150px;

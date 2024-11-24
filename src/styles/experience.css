@@ -51,3 +51,7 @@
   width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner */
   height: auto; /* Ajusta automaticamente a altura mantendo a proporção original */
 }
+
+.container{
+  margin-left:10px
+}
